@@ -1,0 +1,35 @@
+.techskills {
+    padding-left: 120px;
+    margin-top: 60px;
+}
+.techskills hr{
+    color: #0a5d59;
+    width: 300px;
+    margin: 10px auto;
+}
+.techskills h2{
+    font-weight: bold;
+    color: #416d55;
+}
+.techskills .card {
+    cursor: pointer;
+}
+.techskills .tech-icon{
+    font-size: 2rem;
+    margin-right: 10px;
+}
+.techskills .card:hover{
+    background-color: #416d55;
+    transition: 1s;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* MOBILE VIEW */
+@media (max-width:600px) {
+    .techskills {
+        padding: 0;
+        margin: 0;
+        margin-top: 30px;
+    }
+}
